@@ -1,0 +1,272 @@
+body {
+  color: #000;
+  padding-bottom: 5px;
+  font-size: 15px;
+  background-color:#f5f5f5;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+}
+
+#first {
+  padding: 0px;
+}
+.container {
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+}  
+
+h1, h2, h3, h4, h5, span {
+  color: #990100;
+}
+
+h1 {
+ font-size: 22pt;
+}
+
+h2 {
+ font-size: 16pt;
+}
+
+h3 {
+ font-size: 14pt;
+}
+
+.skryty {
+}
+
+ #box {
+  box-shadow:rgba(51, 51, 0, 1) 0 0 10px;
+  border-radius: 4px 4px 0px 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+
+#sidlo {
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.container-padding h1, .container-padding h2, .container-padding p, .container-padding form{
+ padding-left:20px;
+ padding-right:20px;
+ }
+
+.container-padding form{
+ padding-left:40px;
+ padding-right:20px;
+ }
+
+.smallmenu{
+    margin: 7.5px 10px;
+}
+
+#onas img {
+  width: 100%;
+  }
+
+#vybaveni {
+ text-align: left;
+}
+
+.row {
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+#vybaveni > .container, #vybaveni > .row {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.cnc {
+  margin-left: 12px;
+}
+#vybaveni h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 0px;
+}
+#vybaveni h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#vybaveni h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#vybaveni img {
+  width: 100%;
+  } 
+#galerie img {
+  width: 100%;
+  } 
+
+  /* ---------------------------- kontakty */
+
+#kontakty span {
+  font-size: 22px;
+}
+
+#kontakty h2 {
+  font-size: 22px;
+}
+
+  #mapa {
+    height:210px; 
+    width:100%;
+  }
+
+  #map {
+    height:270px; 
+    width:100%;
+  }
+
+/* kontakty */
+dt {
+  font-weight: bold;
+  font-variant: small-caps;
+  }
+
+#sidlo .dl-horizontal dt {
+  width: 120px;
+  }
+
+#sidlo .dl-horizontal dd {
+  margin-left: 140px;
+  }
+
+.dl-horizontal dd {
+  margin-left: 30%;
+  }
+.dl-horizontal dt {
+  width: 25%;
+  }
+
+#url {display: none;}
+
+  /* ---------------------------- foto slider */
+  .bx-wrapper .bx-pager {
+    bottom: -95px;
+    margin-bottom: -110px;
+  }
+  
+  .bx-wrapper .bx-pager a {
+    border: solid #ccc 1px;
+    display: block;
+    margin: 5px 7px;
+    padding: 3px;
+    width: 105px;
+  }
+  
+  .bx-wrapper .bx-pager a:hover,
+  .bx-wrapper .bx-pager a.active {
+    border: solid #5280DD 1px;
+  }
+  
+  .bx-wrapper {
+    margin-bottom: 120px;
+  }
+  
+  .bx-wrapper .bx-caption span {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .bx-wrapper .bx-prev {
+    left: 0px
+  }
+
+
+ #sluzby .pozadi {
+    background-image:url('../img/pozadi.png');
+  }
+  #reference .pozadi {
+    background-image:url('../img/pozadi_ref.png');
+  }
+
+  /* ---------------------------- jumbotron */
+  .jumbotron {
+    padding-bottom: 8px;
+    padding-top: 90px;
+  }
+
+  .container .jumbotron {
+    border-radius: 0px 0px 0px 0px;
+    background-image:url('../img/top_banner.png');
+    background-color:#FFFFFF;
+    text-align: right;
+    height: 200px;
+    margin-top: -2px;
+    margin-bottom: 0px;
+  }
+
+  /* ---------------------------- carousel */
+  .carousel {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .carousel-inner > .item > img {
+    height: 100%;
+  }
+
+  .carousel .item {
+    background-color: #777777;
+  }
+   .carousel-caption {
+   text-shadow:rgba(0, 0, 0, 1) 2px 2px 1px;
+   }
+
+
+  .btn-primary {
+    background-color: #000066;
+    border-color: #000066;
+    color: #FFFFFF;
+  }
+
+  .btn-primary.active, .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+    background-color: #357edb; 
+    border-color: #2d2db3;
+    color: #FFFFFF;
+  }
+  .carousel-indicators li {
+    border: 1.5px solid #FFFFFF;
+    border-radius: 12px;
+  }
+  .carousel-indicators .active {
+    background-color: #000066;
+  }
+
+  /* ---------------------------- footer */
+
+  footer, footer .container {
+    background-color: #989933;
+    color: #fff;
+  }
+  footer a, footer a:visited, footer a:active, footer a:focus {
+    text-align: left;
+    color: #fff;
+    text-decoration: none;
+  }
+  footer a:hover {
+  color: #990100;
+  }
+  footer {  
+    font-size: 14px;
+  }
+  footer img {
+    padding: 0px;
+  }
+  
+  .modal-footer {
+    padding: 10px 15px 10px 30px;
+  }
