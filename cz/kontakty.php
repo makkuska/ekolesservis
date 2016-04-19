@@ -85,9 +85,7 @@
             </div><!-- div osoby class="container"-->
           </div><!-- div kontakty -->
 
-        <!--
-        ?php include_once("kontakt_nas.html") ?> 
-        -->
+        <?php include_once("kontakt_nas.html") ?> 
         <?php include_once("footer.html") ?>
 
       </div> <!-- id="first" -->
