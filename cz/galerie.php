@@ -9,7 +9,7 @@
   <head>
     <meta charset="UTF-8" />
     <?php include_once("../head.html") ?>
-    <title>LT EkoLesServis | Naše služby</title>
+    <title>LT EkoLesServis | Fotogalerie</title>
   </head>
   
   <body>
@@ -21,12 +21,10 @@
 
     <div id="box" class="container">
       <?php include_once("header.html") ?>
-
-        <div id="first" class="galerie">
-
+        <div id="first">
 
           <div id="galerie" class="container container-padding">
-            <h1 class="page-header">Galerie výrobků</h1>
+            <h1 class="page-header">Fotogalerie</h1>
             <?php include_once("fotogalerie.html") ?>
             <p>
           </div><!-- div sluzby -->

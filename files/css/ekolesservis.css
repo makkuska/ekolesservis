@@ -53,12 +53,12 @@ h3 {
   margin-right: auto;
   }
 
-.container-padding h1, .container-padding h2, .container-padding p, .container-padding form{
+.container-padding h1, .container-padding h2, .container-padding p, .container-padding h3{
  padding-left:20px;
  padding-right:20px;
  }
 
-.container-padding form{
+.container-padding ul, .container-padding form{
  padding-left:40px;
  padding-right:20px;
  }
@@ -67,12 +67,11 @@ h3 {
     margin: 7.5px 10px;
 }
 
-#onas img {
-  width: 100%;
-  }
-
-#vybaveni {
- text-align: left;
+.skryty {
+  opacity: 0;
+  position: relative;
+  left: -7%;
+  bottom: 90%;
 }
 
 .row {
@@ -80,32 +79,6 @@ h3 {
   padding-right: 15px;
 
 }
-#vybaveni > .container, #vybaveni > .row {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.cnc {
-  margin-left: 12px;
-}
-#vybaveni h2 {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding-left: 0px;
-}
-#vybaveni h3 {
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-#vybaveni h3 {
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-#vybaveni img {
-  width: 100%;
-  } 
 #galerie img {
   width: 100%;
   } 

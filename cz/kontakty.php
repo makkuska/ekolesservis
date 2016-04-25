@@ -21,7 +21,7 @@
 
     <div id="box" class="kontakty container">
       <?php include_once("header.html") ?>
-        <div id="first" class="kontakty">
+        <div id="first">
 
           <div id="kontakty" class="container container-padding">
             <h1 class="page-header">Kontakty</h1>

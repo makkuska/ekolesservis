@@ -21,11 +21,11 @@
 
     <div id="box" class="container">
       <?php include_once("header.html") ?>
-      <div id="first" class="sluzby">
+      <div id="first">
       
         <div id="sluzby" class="container container-padding">
           <h1 class="page-header">Naše služby</h1>
-          <div class="pozadi container container-padding">
+          <div class="pozadi">
 
             <h2>Údržba a realizace zeleně</h2>
             <ul>
@@ -55,16 +55,16 @@
             <ul>
               <li>Štěpkovač Jensen A 530 Xl</li>
               <li>Pařezová fréza Laski F 500 H</li>
-              <li>DHydrostatický nosič nářadí Reform  M9 (13 hp)</li>
-              <li>DHydrostatický nosič nářadí Agria (23 hp)</li>
-              <li>DSvahový mulčocač AS Motor Enduro, mulčovač  2x</li>
-              <li>DBilly Goat vertikutator</li>
-              <li>DVermeer S 800 XT</li>
-              <li>DPásový minibagr Kubota KX O19-4</li>
-              <li>DNissan NP 300</li>
-              <li>DIveco Daily</li>
-              <li>DReanault Trafic</li>
-              <li>DPeugeot Boxer</li>
+              <li>Hydrostatický nosič nářadí Reform  M9 (13 hp)</li>
+              <li>Hydrostatický nosič nářadí Agria (23 hp)</li>
+              <li>Svahový mulčocač AS Motor Enduro, mulčovač  2x</li>
+              <li>Billy Goat vertikutator</li>
+              <li>Vermeer S 800 XT</li>
+              <li>Pásový minibagr Kubota KX O18-4</li>
+              <li>Nissan NP 300</li>
+              <li>Iveco Daily</li>
+              <li>Reanault Trafic</li>
+              <li>Peugeot Boxer</li>
               <li>Dacia Logan</li>
             </ul>
 

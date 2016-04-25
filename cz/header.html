@@ -1,12 +1,17 @@
-            <div class="jumbotron">
+      <div class="jumbotron">
+        <a href=<?php echo "{$rootpath}index.php" ?> >
+          <img class="skryty" src=<?php echo "{$filespath}files/img/top_banner.png" ?> />
+        </a>
       </div> <!-- class="jumbotron" -->
 
     <?php $active = "" ?>
     <div class="blog-masthead">
       <div id="blog-navbar" class="container">
         <nav class="blog-nav">
-        <a class="blog-nav-item ukazka logo_menu" 
+          <!--<a class="blog-nav-item ukazka logo_menu" -->
+        <a class="blog-nav-item" 
           href=<?php echo "{$rootpath}index.php" ?> >
+           Aktuality
         </a>
         <a class=<?php if ($name_page == "ospolecnosti") { $active = "active"; } else { $active = ""; } echo '"blog-nav-item ' . $active .'"' ?> 
           href=<?php echo "{$czpath}ospolecnosti.php" ?> >
@@ -22,7 +27,7 @@
           </a>
         <a class=<?php if ($name_page == "galerie") { $active = "active"; } else { $active = ""; } echo '"blog-nav-item ' . $active .'"' ?> 
           href=<?php echo "{$czpath}galerie.php" ?> >
-            Galerie 
+            Fotogalerie 
           </a>
         <a class=<?php if ($name_page == "kontakty") { $active = "active"; } else { $active = ""; } echo '"blog-nav-item ' . $active .'"' ?> 
           href=<?php echo "{$czpath}kontakty.php" ?> >

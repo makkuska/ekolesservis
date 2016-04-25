@@ -21,11 +21,10 @@
 
     <div id="box" class="container">
       <?php include_once("header.html") ?>
-      <div id="first" class="ospolecnosti">
+      <div id="first">
       
-        <div id="vybaveni" class="container container-padding">
+        <div id="ospolecnosti" class="container container-padding">
           <h1 class="page-header">O společnosti</h1>
-          <div class="container container-padding">
             <p>
             Firma se zabývá zahradnickými službami, lesnickými pracemi, službami v péči o
             krajinu a komunálními službami. 
@@ -66,7 +65,6 @@
             ve zmiňovaném oboru, či v oborech příbuzných.
             </p>
 
-        </div>
         </div>
         <?php include_once("footer.html") ?>
       </div> <!-- id="box" class="container" -->

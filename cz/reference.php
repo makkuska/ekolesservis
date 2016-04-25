@@ -21,11 +21,11 @@
 
     <div id="box" class="container">
       <?php include_once("header.html") ?>
-      <div id="first" class="sluzby">
+      <div id="first">
       
         <div id="reference" class="container container-padding">
           <h1 class="page-header">Reference</h1>
-          <div class="pozadi container container-padding">
+          <div class="pozadi">
 
             <ul>
               <li>Město Olomouc</li>
@@ -44,7 +44,7 @@
               <li>Obec Babice u Šternberka</li>
               <li>Obec Újezd u Uničova</li>
               <li>Flora Olomouc a.s.</li>
-              <li>s další……. </li> 
+              <li>a další... </li> 
             </ul>
 
           </div>
