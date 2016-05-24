@@ -118,8 +118,8 @@
 
 .bx-wrapper .bx-controls-direction a {
 	position: absolute;
-	top: 50%;
-	margin-top: -170px; /* nastavení pozice čudlů */
+  top: 10px;
+	margin: 0 auto; /* nastavení pozice čudlů */
 	outline: 0;
 	width: 32px;
 	height: 32px;
@@ -171,7 +171,7 @@
 
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
 	text-align: center;
-	width: 80%;
+	width: 100%;
 }
 
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {

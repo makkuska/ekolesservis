@@ -1,36 +1,31 @@
-<!DOCTYPE html>
-<html lang="cs-cz" dir="ltr">
-  <?php $name_page = "galerie" ?>
-  <?php $rootpath = "../" ?>
-  <?php $czpath = "" ?>
-  <?php $enpath = "../en/" ?>
-  <?php $depath = "../de/" ?>
-  <?php $filespath = "../" ?>
-  <head>
-    <meta charset="UTF-8" />
-    <?php include_once("../head.html") ?>
-    <title>LT EkoLesServis | Fotogalerie</title>
-  </head>
-  
-  <body>
+              <?php include_once("galerie_upcontent.php") ?>
 
-    <!--[if lt IE 9]>
-      <script src="../files/js/html5shiv.js"></script>
-      <script src="../files/js/respond.min.js"></script>
-    <![endif]-->
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                  <script type="text/javascript" >
+                    $(document).ready(function(){
+                    $('.foto').bxSlider({
+                      buildPager: function(slideIndex){
+                        switch(slideIndex){
+                          case 0:
+                            return '<img src=<?php echo "{$filespath}files/img/galery/zahradnickeprace/zm/IMG10.JPG" ?> />';
+                          case 1:
+                            return '<img src=<?php echo "{$filespath}files/img/galery/zahradnickeprace/zm/IMG12.JPG" ?> />';
+                          case 2:
+                            return '<img src=<?php echo "{$filespath}files/img/galery/zahradnickeprace/zm/IMG13.JPG" ?> />';
+                        }
+                      },
+                      adaptiveHeight: true,
+                      controls: true,
+                      autoControls: true,
+                      captions: true,
+                    });
+                    });
+                  </script>
+                  <ul class="foto">
+                    <li><img title="Ukázka realizace" src=<?php echo "{$filespath}files/img/galery/zahradnickeprace/IMG10.JPG" ?>  alt="ukazka realizace" /></li>
+                    <li><img title="Ukázka realizace" src=<?php echo "{$filespath}files/img/galery/zahradnickeprace/IMG12.JPG" ?>  alt="ukazka realizace" /></li>
+                    <li><img title="Ukázka realizace" src=<?php echo "{$filespath}files/img/galery/zahradnickeprace/IMG13.JPG" ?>  alt="ukazka realizace" /></li>
+                  </ul>      
+                </div><!-- div -->
 
-    <div id="box" class="container">
-      <?php include_once("header.html") ?>
-        <div id="first">
-
-          <div id="galerie" class="container container-padding">
-            <h1 class="page-header">Fotogalerie</h1>
-            <?php include_once("fotogalerie.html") ?>
-            <p>
-          </div><!-- div sluzby -->
-          <?php include_once("footer.html") ?>
-        </div> <!-- id="box" class="container" -->
-      </div>
-    </div>
-  </body> 
-</html>
+              <?php include_once("galerie_downcontent.php") ?>

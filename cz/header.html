@@ -8,8 +8,10 @@
     <div class="blog-masthead">
       <div id="blog-navbar" class="container">
         <nav class="blog-nav">
-          <!--<a class="blog-nav-item ukazka logo_menu" -->
-        <a class="blog-nav-item" 
+          <!--
+          <a class="blog-nav-item" 
+          <a class="blog-nav-item ukazka logo_menu" -->
+        <a class=<?php if ($name_page == "index") { $active = "active"; } else { $active = ""; } echo '"blog-nav-item ' . $active .'"' ?> 
           href=<?php echo "{$rootpath}index.php" ?> >
            Aktuality
         </a>

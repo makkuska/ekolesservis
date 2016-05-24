@@ -80,8 +80,19 @@ h3 {
 
 }
 #galerie img {
-  width: 100%;
+  display: block;
+  margin: 0 auto;
   } 
+
+  #menufoto a, #menufoto a:hover, #menufoto a.active {
+  color: #990100;
+  }
+
+  #menufoto li {
+    list-style-image: url('../img/li-img.png');
+    color: #990100;
+  }
+
 
   /* ---------------------------- kontakty */
 
@@ -125,7 +136,6 @@ dt {
   }
 
 #url {display: none;}
-
   /* ---------------------------- foto slider */
   .bx-wrapper .bx-pager {
     bottom: -95px;
